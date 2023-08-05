@@ -1,6 +1,6 @@
 import { useState,useEffect } from 'react';
 import axios from 'axios';
-import './index.scss'
+import './index.scss';
 
 function HomePage() {
   const [animeList, setAnimeList] = useState([]);
