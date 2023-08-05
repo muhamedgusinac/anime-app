@@ -3,10 +3,10 @@ import './index.scss'
 function ItemCard({itemImage,itemName}) {
  
   return (
-    <>
-
- <h1>ItemCard</h1>
-    </>
+    <div className='wrapper'>
+{/*When added api to import images from api*/}
+      <img></img>
+    </div>
   )
 }
 
