@@ -6,7 +6,7 @@ const AnimeInfo = () => {
 
   const fetchAnimeData = async () => {
     try {
-      const response = await axios.get('https://api.anime_app.com/anime');
+      const response = await axios.get('https://api.anime-app.com/anime');
       setAnimeData(response.data);
     } catch (error) {
       console.error('Greška pri dohvatanju podataka o animeima:', error);
