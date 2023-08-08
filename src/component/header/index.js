@@ -1,11 +1,12 @@
 import './index.scss'
+import headerImage from '../../assets/headerImage.png';
 
 function Header() {
  
   return (
     <>
    <header>
-   <img src="https://www.pngplay.com/wp-content/uploads/12/Sasuke-Sharingan-PNG-Photo-Image.png" alt="" />
+   <img src={headerImage} alt="" />
     <p>Anime<span>App</span></p>
    </header>
     </>
